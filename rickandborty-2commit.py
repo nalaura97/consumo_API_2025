@@ -1,4 +1,3 @@
-pythonCopiarEditarclass API_Rick_Morty(API_consumer):
     def __init__(self):
         self.__URL = 'https://rickandmortyapi.com/api/character/'    @propertydef URL(self):
         return self.__URL
